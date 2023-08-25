@@ -42,7 +42,7 @@ describe("[lib] github methods", () => {
     expect(result.apiPaths).toEqual({
       orgName: "open-sauced",
       repoName: "insights",
-      repoFullName: "open-sauced/insights",
+      repoFullName: "gsoc2/insights",
       issueId: "1470",
     });
   });
@@ -52,7 +52,7 @@ describe("[lib] github methods", () => {
     expect(result.apiPaths).toEqual({
       orgName: "open-sauced",
       repoName: "insights",
-      repoFullName: "open-sauced/insights",
+      repoFullName: "gsoc2/insights",
       issueId: "1470",
     });
   });
@@ -62,17 +62,17 @@ describe("[lib] github methods", () => {
     expect(result.apiPaths).toEqual({
       orgName: "open-sauced",
       repoName: "insights",
-      repoFullName: "open-sauced/insights",
+      repoFullName: "gsoc2/insights",
       issueId: null,
     });
   });
   it("Should return an object with a valid org name and repo name", () => {
-    const result = generateRepoParts("open-sauced/insights");
+    const result = generateRepoParts("gsoc2/insights");
     expect(result.isValidUrl).toEqual(true);
     expect(result.apiPaths).toEqual({
       orgName: "open-sauced",
       repoName: "insights",
-      repoFullName: "open-sauced/insights",
+      repoFullName: "gsoc2/insights",
       issueId: null,
     });
   });

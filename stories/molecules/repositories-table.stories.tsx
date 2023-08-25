@@ -17,7 +17,7 @@ export const Default = RepositoriesTableTemplate.bind({});
 const previewRepositories = [
   {
     id: "1",
-    full_name: "open-sauced/insights",
+    full_name: "gsoc2/insights",
     activity: "High",
     prOverview: {
       open: 10,

@@ -28,7 +28,7 @@ const data = [
     additions: 48,
     deletions: 3,
     changed_files: 3,
-    full_name: "open-sauced/insights",
+    full_name: "gsoc2/insights",
   },
   {
     id: 1357648118,
@@ -173,7 +173,7 @@ const data = [
     additions: 189,
     deletions: 120,
     changed_files: 2,
-    full_name: "open-sauced/insights",
+    full_name: "gsoc2/insights",
   },
   {
     id: 1181031673,

@@ -89,9 +89,7 @@ const UserRepositoryRecommendations = ({ contributor, userInterests }: UserRepoR
             {recommendedrepos.map((repo, i) => (
               <RecommendedRepoCard className="md:w-[45%]" key={i.toString()} fullName={repo} />
             ))}
-            {recommendedrepos.length <= 1 && (
-              <RecommendedRepoCard className="md:w-[45%]" fullName="open-sauced/insights" />
-            )}
+            {recommendedrepos.length <= 1 && <RecommendedRepoCard className="md:w-[45%]" fullName="gsoc2/insights" />}
           </div>
         </div>
       ) : (

@@ -16,5 +16,5 @@ const TableRepositoryNameTemplate: ComponentStory<typeof TableRepositoryName> = 
 export const Default = TableRepositoryNameTemplate.bind({});
 
 Default.args = {
-  fullName: "open-sauced/insights",
+  fullName: "gsoc2/insights",
 };
