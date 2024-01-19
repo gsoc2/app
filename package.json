@@ -101,7 +101,7 @@
     "react-use": "^17.4.0",
     "rooks": "^7.4.4",
     "schema-dts": "^1.1.0",
-    "stripe": "^11.8.0",
+    "stripe": "^14.10.0",
     "swr": "^2.0.3",
     "tailwindcss-radix": "^2.7.0",
     "zustand": "^4.3.2"
