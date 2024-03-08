@@ -51,7 +51,7 @@
     "@nivo/core": "^0.80.0",
     "@nivo/line": "^0.80.0",
     "@nivo/pie": "^0.80.0",
-    "@nivo/scatterplot": "^0.80.0",
+    "@nivo/scatterplot": "^0.85.1",
     "@primer/octicons-react": "^17.11.1",
     "@radix-ui/react-alert-dialog": "^1.0.2",
     "@radix-ui/react-aspect-ratio": "^1.0.3",
